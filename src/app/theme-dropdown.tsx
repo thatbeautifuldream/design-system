@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -11,7 +10,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { SidebarMenuButton } from "@/components/ui/sidebar";
-import { Settings, Check, Palette } from "lucide-react";
+import { Check, Palette } from "lucide-react";
 import { useTheme } from "next-themes";
 
 const themes = [
